@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+div, input, textarea {
+    /*패딩, 마진, 보더, 콘텐트 영역 모두 포함해서 사이징 값으로 처리하기*/
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /*font-family: 'gulim';*/
+}
+
+.profile{
+    width: 100px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 16px;
+}
+
+.content{
+    text-align: center;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 5px 5px 0 #000000;
+}
+
+.container{
+    width: 700px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+}
+
+.left-menu{
+    width: 20%;
+    height: 400px;
+    background: cornflowerblue;
+    float: left;
+    /*display: inline-block;*/
+}
+
+.right{
+    width: 80%;
+    height: 400px;
+    background: coral;
+    float: left;
+    /*display: inline-block;*/
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+    /*float: left;*/
+    clear: both;
+}
+
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    padding-top: 200px;
+}
+
+.main-detail {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    line-height: 150%;
+    text-shadow: #000000 1px 1px 1px;
+}
+
+.buy-btn {
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.main-sub-box {
+        width: 80%;
+    max-width: 600px;
+
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 5px 5px 0 #000000;
+    position: relative;
+    top: -30px;
+}
+
+
+.form-background {
+    background-color: #555;
+    padding: 30px;
+}
+
+.form-white {
+    background-color: #FFF;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+.yellow-button {
+    display: block;
+    margin-left: auto;
+    width: 100px;
+    height: 40px;
+    background-color: #ffd837;
+    border-radius: 5px;
+    border: 1px solid #8f4b00;
+}
+
+.table-bg-color {
+    background-color: #fff;
+}
+
+.cart-table {
+    width: 60%;
+    max-width: 800px;
+    min-width: 500px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #efefef;
+}
+
+th, td {
+    border-bottom: 2px solid #aabcc6; /* 원하는 색상 코드로 변경 가능 */
+    text-align: center;
+    padding-top: 10px; /* 위 여백 */
+    padding-bottom: 10px; /* 아래 여백 */
+}
+
+tr {
+
+}
+
+.text {
+    vertical-align: middle; /* 텍스트의 세로 중앙 정렬 */
+    display: inline-block;
+    margin-left: 15px; /* 이미지와 텍스트 사이의 간격 */
+}
+
+.text-sum {
+    font-size: 30px;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.edit-cart-text {
+    color: #1d4e76;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.end-div {
+    margin-top: 30px;
+}
+
+.div-right {
+    float: right;
+}
+
+.pay-method-btn {
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    background-color: #1d4e76;
+    color: #efefef;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pay-method-btn:hover {
+    background-color: hotpink;
+}
+
+.div-left {
+    float: left;
+    margin-top: 25px;
+}
+
+.cart-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #1d4e76;
+    font-weight: 400;
+}
+
+.flex-item {
+    width: 300px;
+    height: 80px;
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: aquamarine
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.nav-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+
+/*media query 문법.
+ * css 최하단에 기입
+ * 1200px 이하 크기일 경우 해당 css 추가해줌
+ * 픽셀 값을 브레이크 포인트라고 함
+ * 보편적인 값은 1200px / 992px / 768px / 576px 이며 모바일 디바이스별 표준이라고 할 수 있음*/
+
+/*권장 Breakpoint 
+
+ 
+
+media query 문법 max-width 안에 넣는 브라우저 폭을 breakpoint라고 합니다. 
+
+breakpoint는 원하는 만큼 저렇게 여러개 넣을 수 있는데 
+
+필요할 때 마다 사이즈를 임의로 넣고 작성하는 것 보다는
+
+많은 사람들이 사용하는 breakpoint를 쓰는게 좋습니다. 
+
+ 
+
+1200px / 992px / 768px / 576px
+
+이런 사이즈를 권장드립니다.
+
+Bootstrap 라이브러리가 기본으로 권장하는 breakpoint 이며 그대로 따라하도록 합시다. 
+
+1200px부터를 태블릿사이즈로 볼지, 992px 부터를 태블릿 사이즈로 볼지는 여러분 마음이고 
+
+768px 부터를 모바일로 볼지, 576px 부터를 모바일로 볼지도 여러분 마음입니다. 
+
+ 
+
+ 
+
+4개 저렇게 다 쓰면 스타일 관리하기가 귀찮기 때문에
+
+1200px 
+
+768px
+
+이렇게 두개만 골라서 1200px 이하는 태블릿, 768px 이하는 모바일
+
+이렇게 디자인하는게 가장 간편합니다. 
+
+ */
+@media screen and (max-width: 1200px) {
+    .main-title {
+        font-size: 15px;
+    }
+    
+    .nav-item {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title {
+        font-size: 12px;
+    }
+    
+    .nav-item {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-title {
+        font-size: 9px;
+    }
+    
+    .nav-item {
+        font-size: 7px;
+    }
+}
+
+
+
+.shop-bg {
+    background-color: #EEE;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.shop-item {
+    width: 33%;
+    padding: 15px;
+}
+
+.shop-item img {
+    width: 100%;
+    display: block;
+}
+
+.overlay-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay-wrap:hover .overlay-black {
+    margin-top: 50%;
+}
+
+.overlay-black {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 100%;
+    transition: all 1s;
+}
+
+#file::file-selector-button {
+    background-color: skyblue;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+

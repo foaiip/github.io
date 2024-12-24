@@ -1,0 +1,53 @@
+
+.container {
+    background-color: beige;
+    width: 540px;
+    margin: 0px;
+    padding: 50px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    border: solid 1px #999;
+    padding: 15px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-50 {
+    width: 45%;
+    display: inline-block;
+}
+
+.left-margin-10 {
+    margin-left: 8%;
+}
+
+.textarea-style {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: solid 1px #333;
+    padding: 15px;
+}
+
+.dark-outline {
+    background-color: #555;
+    padding: 100px;
+}
+
+h3 {
+    
+}
+
+.form-white {
+    
+}
